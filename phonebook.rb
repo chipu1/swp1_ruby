@@ -4,7 +4,7 @@ phonebook = []
 
 loop do
 
-    puts "Can I have your name?"
+    puts "Can I have your name? (if you type 'exit', it will be closed)"
     name = gets.chomp
         break if name == "exit"
         
@@ -16,7 +16,7 @@ loop do
         if gender == "male"
         elsif gender == "female"
         else
-          gender == "male"
+          gender = "male"
           puts "hmm...I wiil set male as your gender"
         end
     
